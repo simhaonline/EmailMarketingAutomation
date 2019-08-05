@@ -14,11 +14,14 @@ Turn Google Sheets API, Google Slides API, Drive API on
 
 
 ### Step 2: Replace with your codes
-Get Your Spreadsheet Id & Slide Id
+1. Replace Your Spreadsheet Id & Slide Id
+You can easily get a Google document Id from its URL. For example, the Id of a document with URL `https://docs.google.com/presentation/d/12345/edit#slide=id.p` is `12345`.
 
-You can easily get a Google document Id from its URL. 
-For example, the Id of a document with URL `https://docs.google.com/presentation/d/12345/edit#slide=id.p` is `12345`.
+2. Set the spreadsheet column you store the replace text to `customerName`.
 
+3. Set the title of copied slides to `copyTitle`. In this example, it's set as `customerName presentation`.
+
+4. Replace `{{YOUR_TAG}}` with the tag you created in Step 1.
 
 ### Step 3: Run Scripts
 1. Click Save & Run 
