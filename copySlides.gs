@@ -35,5 +35,7 @@ function copySlides() {
     });
     console.log('Created presentation for %s with ID: %s', customerName, presentationCopyId);
     console.log('Replaced %s text instances', numReplacements);
+    var blob = DriveApp.getFileById(presentationCopyId).getBlob();
+    DriveApp.createFile(blob);
   }
 }
