@@ -1,4 +1,4 @@
-# How to merge Google Spreadsheets Data to Google Slides & Gmail
+# How to merge Google Spreadsheets Data to Google Slides & Email
 ## Part I: Merge Spreadsheets text to Slides
 ### Step 1: Setup
 1. Create Tags in Your Slide
@@ -28,7 +28,7 @@ You can easily get a Google document Id from its URL. For example, the Id of a d
 2. Review Authorization Permissions
 3. Now you should see slides copies & their pdf version in your Google Drive
 
-## Part II: Merge Spreadsheets to Gmail
+## Part II: Merge Spreadsheets to Email
 ### Step 1: Get to Know Your Spreadsheet Data
 In the example, we have four columns: Customer to store customer's name, Email to save customer's email addresses, Message to store email contents for that customer, Status to save the sending status(SENT or not) of the email, to prevent sending duplicate messages.
 In this example, we have four columns
