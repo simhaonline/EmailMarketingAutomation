@@ -5,16 +5,16 @@
 
 Open your slide template. For the element you want to insert texts, replace the content with a tag like `{{customer-name}}`. Make sure to use strings that are unlikely to occur normally.
 
-<img src="https://github.com/vanessaaleung/GoogleScriptsAutomation/blob/master/sample-screenshots/tag-sample.png" alt="Create Tags in Your Slide" width="500"/>
+<img src="https://github.com/vanessaaleung/GoogleScriptsAutomation/blob/master/sample-screenshots/tag-example.png" alt="Create Tags in Your Slide" width="500"/>
 
 
 2. Enable Google APIs
 
 In your slide, go to Tools -> Script editor -> Resources -> Advanced Google services -> Turn `Google Sheets API`, `Google Slides API`, `Drive API` on
 
-<img src="https://github.com/vanessaaleung/GoogleScriptsAutomation/blob/master/sample-screenshots/api.png" alt="Enable Google APIs" width="700"/>
+<img src="https://github.com/vanessaaleung/GoogleScriptsAutomation/blob/master/sample-screenshots/api.png" alt="Enable Google APIs" width="600"/>
 
-3. In Script editor, paste the code inside `copySlides.gs`
+3. In Script editor, paste the code inside [copySlides.gs](https://github.com/vanessaaleung/GoogleScriptsAutomation/blob/master/copySlides.gs)
 
 
 ### Step 2: Replace with your codes
@@ -37,11 +37,11 @@ You can easily get a Google document Id from its URL. For example, the Id of a d
 In the example, we have four columns: Customer to store customer's name, Email to save customer's email addresses, Message to store email contents for that customer, Status to save the sending status(SENT or not) of the email, to prevent sending duplicate messages.
 In this example, we have four columns
 
-<img src="https://github.com/vanessaaleung/GoogleScriptsAutomation/blob/master/sample-screenshots/spreadsheet-data.png" alt="Sample Spreadsheet"/>
+<img src="https://github.com/vanessaaleung/GoogleScriptsAutomation/blob/master/sample-screenshots/spreadsheet-data.png" alt="Sample Spreadsheet" width="500"/>
 
 
 ### Step 2: Script Editor
-In your spreadsheet, go to `Tools` -> `Script editor`, paste the codes in `sendEmails.gs`
+In your spreadsheet, go to `Tools` -> `Script editor`, paste the codes in [sendEmails.gs](https://github.com/vanessaaleung/GoogleScriptsAutomation/blob/master/sendEmails.gs)
 
 <img src="https://github.com/vanessaaleung/GoogleScriptsAutomation/blob/master/sample-screenshots/script-editor.png" alt="Script Editor" width="300"/>
 
