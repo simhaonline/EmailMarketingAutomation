@@ -5,10 +5,14 @@
 
 Open your slide template. For the element you want to insert texts, replace the content with a tag like `{{customer-name}}`. Make sure to use strings that are unlikely to occur normally.
 
+<img src="https://github.com/vanessaaleung/GoogleScriptsAutomation/blob/master/sample-screenshots/tag-sample.png" alt="Create Tags in Your Slide" width="500"/>
+
+
 2. Enable Google APIs
 
 In your slide, go to Tools -> Script editor -> Resources -> Advanced Google services -> Turn `Google Sheets API`, `Google Slides API`, `Drive API` on
-Turn Google Sheets API, Google Slides API, Drive API on
+
+<img src="https://github.com/vanessaaleung/GoogleScriptsAutomation/blob/master/sample-screenshots/api.png" alt="Enable Google APIs" width="700"/>
 
 3. In Script editor, paste the code inside `copySlides.gs`
 
@@ -33,8 +37,13 @@ You can easily get a Google document Id from its URL. For example, the Id of a d
 In the example, we have four columns: Customer to store customer's name, Email to save customer's email addresses, Message to store email contents for that customer, Status to save the sending status(SENT or not) of the email, to prevent sending duplicate messages.
 In this example, we have four columns
 
+<img src="https://github.com/vanessaaleung/GoogleScriptsAutomation/blob/master/sample-screenshots/spreadsheet-data.png" alt="Sample Spreadsheet"/>
+
+
 ### Step 2: Script Editor
 In your spreadsheet, go to `Tools` -> `Script editor`, paste the codes in `sendEmails.gs`
+
+<img src="https://github.com/vanessaaleung/GoogleScriptsAutomation/blob/master/sample-screenshots/script-editor.png" alt="Script Editor" width="300"/>
 
 ### Step 3: Replace with your codes
 
@@ -42,11 +51,11 @@ Fetch dataReplace `startRow` with the index of the starting row you want to proc
 
 2. Set `getRange(row, column, numRows,numColumns)` to fetch your data range. In this example, we fetch cells `A2:B4`.
 
-Set `subject` to your expected email subject.
-Now emails with customized message & deck attachment should be sent to your customers. Here's an example:
-Example email
+3. Set `subject` to your expected email subject.
 
 ### Step 3: Run Scripts
 1. Click Save & Run 
 2. Review Authorization Permissions
 3. Now emails with customized message & deck attachment should be sent to your customers.
+
+<img src="https://github.com/vanessaaleung/GoogleScriptsAutomation/blob/master/sample-screenshots/email-sample.png" alt="Email Sample" width="500"/>
