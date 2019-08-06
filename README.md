@@ -6,7 +6,7 @@ Here's an example of spreadsheets with customers info we are going to merge.
 
 In the example, we have four columns: Customer to store customer's name, Email to save customer's email addresses, Message to store email contents for that customer, Status to save the sending status(SENT or not) of the email, to prevent sending duplicate messages.
 
-## Part I: Merge Spreadsheets text to Slides
+## Part I: Customized Slides for All Customers
 ### Step 1: Setup
 1. Create Tags in Your Slide
 
@@ -39,7 +39,7 @@ You can easily get a Google document Id from its URL. For example, the Id of a d
 2. Review Authorization Permissions
 3. Now you should see slides copies & their pdf version in your Google Drive
 
-## Part II: Merge Spreadsheets to Email
+## Part II: Customized Email for All Customers
 ### Step 1: Script Editor
 In your spreadsheet, go to `Tools` -> `Script editor`, paste the codes in [sendEmails.gs](https://github.com/vanessaaleung/GoogleScriptsAutomation/blob/master/sendEmails.gs)
 
