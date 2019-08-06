@@ -1,5 +1,5 @@
 # How to automate Email Marketing using Google AppScripts?
-This tutorial covers how to merge text from Google spreadsheets to create Google Slides copies, and send those copies as an email attachment.
+This tutorial covers how to customized Google Slides for a bulk of customers in your Google Spreadsheets, and do a mass mailing with the slides as an attachment.
 
 Here's an example of spreadsheets with customers info we are going to merge.
 <img src="https://github.com/vanessaaleung/GoogleScriptsAutomation/blob/master/sample-screenshots/spreadsheet-data.png" alt="Sample Spreadsheet" width="500"/>
