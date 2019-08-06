@@ -1,4 +1,11 @@
-# How to merge Google Spreadsheets Data to Google Slides & Email
+# How to automate Email Marketing using Google AppScripts?
+This tutorial covers how to merge text from Google spreadsheets to create Google Slides copies, and send those copies as an email attachment.
+
+Here's an example of spreadsheets with customers info we are going to merge.
+<img src="https://github.com/vanessaaleung/GoogleScriptsAutomation/blob/master/sample-screenshots/spreadsheet-data.png" alt="Sample Spreadsheet" width="500"/>
+
+In the example, we have four columns: Customer to store customer's name, Email to save customer's email addresses, Message to store email contents for that customer, Status to save the sending status(SENT or not) of the email, to prevent sending duplicate messages.
+
 ## Part I: Merge Spreadsheets text to Slides
 ### Step 1: Setup
 1. Create Tags in Your Slide
@@ -33,19 +40,12 @@ You can easily get a Google document Id from its URL. For example, the Id of a d
 3. Now you should see slides copies & their pdf version in your Google Drive
 
 ## Part II: Merge Spreadsheets to Email
-### Step 1: Get to Know Your Spreadsheet Data
-In the example, we have four columns: Customer to store customer's name, Email to save customer's email addresses, Message to store email contents for that customer, Status to save the sending status(SENT or not) of the email, to prevent sending duplicate messages.
-In this example, we have four columns
-
-<img src="https://github.com/vanessaaleung/GoogleScriptsAutomation/blob/master/sample-screenshots/spreadsheet-data.png" alt="Sample Spreadsheet" width="500"/>
-
-
-### Step 2: Script Editor
+### Step 1: Script Editor
 In your spreadsheet, go to `Tools` -> `Script editor`, paste the codes in [sendEmails.gs](https://github.com/vanessaaleung/GoogleScriptsAutomation/blob/master/sendEmails.gs)
 
 <img src="https://github.com/vanessaaleung/GoogleScriptsAutomation/blob/master/sample-screenshots/script-editor.png" alt="Script Editor" width="300"/>
 
-### Step 3: Replace with your codes
+### Step 2: Replace with your codes
 
 Fetch dataReplace `startRow` with the index of the starting row you want to process, replace `numRows` with the number of rows you want to process.
 
